@@ -44,6 +44,12 @@ main {
   align-items: center;
   transition: all 0.75s;
 }
+@media screen and (max-width: 400px) {
+  .player {
+    font-size: 2rem;
+    padding: 2rem;
+  }
+}
 
 /* ELEMENTS */
 .name {
@@ -63,6 +69,11 @@ main {
 @media screen and (max-width: 600px) {
   .name {
     font-size: 2rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .name {
+    font-size: 1rem;
   }
 }
 
@@ -157,6 +168,12 @@ main {
     font-size: 1.5rem;
   }
 }
+@media screen and (max-width: 400px) {
+  .btn {
+    font-size: 1rem;
+  }
+}
+
 
 .btn::first-letter {
   font-size: 2.4rem;
@@ -167,15 +184,35 @@ main {
 .btn--new {
   top: 4rem;
 }
+@media screen and (max-width: 400px) {
+  .btn--new {
+    top: 10rem;
+    
+  }
+}
 .btn--roll {
   top: 39.3rem;
+}
+@media screen and (max-width: 400px) {
+  .btn--roll {
+    top: 30rem;
+  }
 }
 .btn--hold {
   top: 46.1rem;
 }
+@media screen and (max-width: 400px) {
+  .btn--hold {
+    top: 36rem;
+  }
+}
 .btn--instruction {
   top: 52.1rem;
-  color: #444;
+}
+@media screen and (max-width: 400px) {
+  .btn--instruction {
+    top: 42rem;
+  }
 }
 a:link{
   text-decoration: none!important;
@@ -196,8 +233,13 @@ a:link{
   left: 50%;
   top: 16.5rem;
   transform: translateX(-50%);
-  height: 10rem;
+  height: 5rem;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 400px) {
+  .dice {
+    font-size: 1.5rem;
+  }
 }
 
 .player--winner {
